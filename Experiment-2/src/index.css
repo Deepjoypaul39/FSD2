@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.home-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.uid {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #ffd700;
+}
+
+.subtitle {
+  margin-top: 20px;
+  font-size: 1.6rem;
+}
