@@ -1,0 +1,47 @@
+/* Full screen gradient background */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  min-height: 100vh;
+  color: white;
+}
+
+/* Center container vertically */
+.main-container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Glass card effect */
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 20px;
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+/* Button hover animation */
+.btn {
+  transition: all 0.3s ease-in-out !important;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Navbar link hover */
+.navbar .btn {
+  border-radius: 20px;
+}
+
+.navbar .btn:hover {
+  background-color: white !important;
+  color: black !important;
+}
