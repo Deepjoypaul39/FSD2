@@ -1,0 +1,155 @@
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  background: radial-gradient(circle at 30% 30%, #0f172a, #020617);
+  color: white;
+  gap: 40px;
+}
+
+/* LEFT SECTION */
+.home-left {
+  width: 55%;
+}
+
+.exp-badge {
+  background: rgba(16, 185, 129, 0.1);
+  padding: 8px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  color: #00ffae;
+}
+
+h1 {
+  font-size: 52px;
+  margin: 20px 0;
+  line-height: 1.2;
+}
+
+.gradient-name {
+  background: linear-gradient(90deg, #00ffae, #facc15);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.typing {
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.typing span {
+  color: #00ffae;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+/* INFO BOX */
+.info-box {
+  background: #0f172a;
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid #1e293b;
+  margin-bottom: 20px;
+}
+
+/* DESCRIPTION */
+.description {
+  color: #94a3b8;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+/* BUTTONS */
+.btn-group {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.primary {
+  background: linear-gradient(90deg, #06b6d4, #10b981);
+}
+
+.gold {
+  background: linear-gradient(90deg, #facc15, #f59e0b);
+}
+
+.outline {
+  background: transparent;
+  border: 1px solid #334155;
+  color: white;
+}
+
+/* PROFILE CARD */
+.profile-card {
+  width: 35%;
+  background: #0f172a;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid #1e293b;
+  text-align: center;
+}
+
+.dp-circle {
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(135deg, #00ffae, #facc15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0 auto 15px;
+  color: black;
+}
+
+.profile-info {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.profile-info div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.profile-info span {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+.profile-info strong {
+  max-width: 240px;
+  text-align: right;
+  word-wrap: break-word;
+}
+
+/* HOVER GROW EFFECT */
+.hover-grow {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-grow:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0, 255, 174, 0.4);
+}

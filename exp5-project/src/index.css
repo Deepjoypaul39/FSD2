@@ -1,0 +1,118 @@
+/* ================= RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ================= BODY ================= */
+body {
+  font-family: 'Inter', sans-serif;
+  background: #050816;   /* PURE DARK */
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+/* Remove Vite center layout */
+#root {
+  width: 100%;
+}
+
+/* ================= NAVBAR ================= */
+nav {
+  background: rgba(10, 15, 30, 0.8);
+  backdrop-filter: blur(12px);
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+nav a {
+  color: #a0aec0;
+  text-decoration: none;
+  margin-right: 25px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #8b5cf6;
+}
+
+/* ================= HERO SECTION ================= */
+.hero {
+  padding: 80px 80px 40px 80px;
+}
+
+.hero h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #8b5cf6, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  color: #94a3b8;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+/* ================= CARD ================= */
+.card {
+  background: linear-gradient(145deg, #0f172a, #111827);
+  padding: 25px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.05);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  border-color: #8b5cf6;
+}
+
+/* ================= GRID ================= */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  padding: 40px 80px;
+}
+
+/* ================= SUMMARY BOX ================= */
+.stat-box {
+  text-align: center;
+}
+
+.stat-box h2 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.stat-box span {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+/* ================= BUTTON ================= */
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(90deg, #8b5cf6, #ec4899);
+  color: white;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
