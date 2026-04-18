@@ -1,0 +1,79 @@
+/* Full dark background */
+.dark-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a; /* deep navy */
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Glassy dark card */
+.dark-card {
+  background: rgba(30, 41, 59, 0.8);
+  padding: 40px;
+  width: 340px;
+  border-radius: 14px;
+  text-align: center;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Heading */
+.dark-card h2 {
+  color: #f1f5f9;
+  margin-bottom: 5px;
+}
+
+/* Sub text */
+.tagline {
+  color: #94a3b8;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+/* Inputs */
+.dark-card input {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: #1e293b;
+  color: white;
+  font-size: 14px;
+}
+
+/* Input focus glow */
+.dark-card input:focus {
+  box-shadow: 0 0 0 2px #38bdf8;
+}
+
+/* Button */
+.dark-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #38bdf8, #6366f1);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Button hover */
+.dark-card button:hover {
+  transform: scale(1.03);
+  opacity: 0.9;
+}
+
+/* Footer text */
+.footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #64748b;
+}

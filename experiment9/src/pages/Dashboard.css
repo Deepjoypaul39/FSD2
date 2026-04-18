@@ -1,0 +1,22 @@
+.dashboard {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f9;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.dashboard h1 {
+  margin-bottom: 10px;
+}
+
+.dashboard p {
+  font-size: 18px;
+  color: #555;
+}
+
+.admin {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+}
